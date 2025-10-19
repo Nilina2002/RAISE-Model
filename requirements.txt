@@ -1,0 +1,52 @@
+# Core ML and NLP libraries
+sentence-transformers>=2.2.2
+transformers>=4.21.0
+torch>=1.12.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# FAISS for vector similarity search
+faiss-cpu>=1.7.4
+# For GPU support (uncomment if you have CUDA):
+# faiss-gpu>=1.7.4
+
+# Data processing and parsing
+pandas>=1.4.0
+tqdm>=4.64.0
+pdfplumber>=0.7.0
+lxml>=4.9.0
+
+# File handling and utilities
+pickle-mixin>=1.0.2
+pathlib2>=2.3.7
+
+# Optional: For better PDF processing
+PyPDF2>=3.0.0
+pdfminer.six>=20220524
+
+# Optional: For enhanced text processing
+nltk>=3.7
+spacy>=3.4.0
+
+# Optional: For data visualization and analysis
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+
+# Optional: For Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.15.0
+notebook>=6.4.0
+
+# Optional: For API development (if you want to create a web interface)
+flask>=2.2.0
+fastapi>=0.78.0
+uvicorn>=0.18.0
+
+# Development and testing
+pytest>=7.1.0
+black>=22.6.0
+flake8>=5.0.0
+
+# System utilities
+psutil>=5.9.0
