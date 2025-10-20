@@ -132,9 +132,7 @@ dmypy.json
 
 # Large data files
 data/raw/
-data/processed_chunks/
-*.pkl
-*.pickle
+
 
 # FAISS indices (can be regenerated)
 faiss_index/
