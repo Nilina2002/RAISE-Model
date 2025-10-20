@@ -134,9 +134,6 @@ dmypy.json
 data/raw/
 
 
-# FAISS indices (can be regenerated)
-faiss_index/
-*.index
 
 # Model files and embeddings
 models/
